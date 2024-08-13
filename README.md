@@ -1,4 +1,4 @@
-# AAML2023 Lab3
+# AAML2023 4x4 simplified TPU
 
 
 Brief introduction of Lab3
