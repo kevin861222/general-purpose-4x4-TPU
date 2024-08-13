@@ -1,7 +1,7 @@
 # AAML2023 4x4 TPU
 
 ### Brief introduction 
-This is a 4x4 TPU IP using Weight Stationary (WS) technology.To accelerates matrix operations over a wide range of lengths and widths.
+This is a 4x4 TPU IP using systolic array with Weight Stationary (WS) technology.To accelerates matrix operations over a wide range of lengths and widths.
 
 ### Directory Structure
 ```bash
