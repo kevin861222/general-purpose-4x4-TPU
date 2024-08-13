@@ -34,8 +34,8 @@ This is a 4x4 TPU IP using Weight Stationary (WS) technology.To accelerates matr
  
 ### Tabel 1: The control signals
 
-| I/O	| Signal | name |	Bit | width	| Description |
-|:--:|:--:|:--:|:--:|:--:|:--:|
+| I/O	| Signal name |	Bit width	| Description |
+|:--:|:--:|:--:|:--:|
 |Input	|clk	|1	|The clock signal
 |Input	|rst_n	|1	|The reset signal, which is active low.
 |Input	|in_valid	|1	|The input is valid when in_valid is high and will only high for one cycle.
