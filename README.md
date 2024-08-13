@@ -1,10 +1,9 @@
-# AAML2023 4x4 simplified TPU
+# AAML2023 4x4 TPU
 
+### Brief introduction 
+This is a 4x4 TPU IP using Weight Stationary (WS) technology.
 
-Brief introduction of Lab3
-
-
-## Directory Structure
+### Directory Structure
 ```bash
 .
 ├── data_generator.py
