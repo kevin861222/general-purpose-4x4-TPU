@@ -44,4 +44,22 @@ This is a 4x4 TPU IP using Weight Stationary (WS) technology.To accelerates matr
 |Input	|N	|8	|dimension K of the matrix (M,K), (K,N)
 |Output	|busy	|1	|High when the design is busy. Pattern will check your answer when busy is low after every in_valid.
 
+### Tabel 2: The SRAM interface of A and B SRAM
+
+| I/O	| Signal name |	Bit width	| Description |
+|:--:|:--:|:--:|:--:|
+|Input	|wr_en	|1	|The write enable signal.
+|Input	|index	|16	|The address of the sram to be read or write.
+|Input	|data_in	|32	|The data input to write to the SRAM
+|Output	|data_out	|32	|The data output from the SRAM
+
+### Tabel 3: The SRAM interface of C SRAM
+
+| I/O	| Signal name |	Bit width	| Description |
+|:--:|:--:|:--:|:--:|
+|Input	|wr_en	|1	|The write enable signal.
+|Input	|index	|16	|The address of the sram to be read or write.
+|Input	|data_in	|128	|The data input to write to the SRAM
+|Output	|data_out	|128	|The data output from the SRAM
+
 
