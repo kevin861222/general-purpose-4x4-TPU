@@ -63,3 +63,9 @@ This is a 4x4 TPU IP using Weight Stationary (WS) technology.To accelerates matr
 |Output	|data_out	|128	|The data output from the SRAM
 
 
+### Module Specification
+Top module: TPU (filename: TPU.V)
+Input Pins: clk, rst_n, in_valid, K, M, N
+Output Pins: busy, [ABC]_wr_en, [ABC]_index, [ABC]_data_in, [ABC]_data_out
+
+
