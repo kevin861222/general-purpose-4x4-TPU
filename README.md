@@ -64,8 +64,8 @@ This is a 4x4 TPU IP using Weight Stationary (WS) technology.To accelerates matr
 
 
 ### Module Specification
-Top module: TPU (filename: TPU.V)
-Input Pins: clk, rst_n, in_valid, K, M, N
-Output Pins: busy, [ABC]_wr_en, [ABC]_index, [ABC]_data_in, [ABC]_data_out
+Top module: TPU (filename: TPU.V) <br>
+Input Pins: clk, rst_n, in_valid, K, M, N <br>
+Output Pins: busy, [ABC]_wr_en, [ABC]_index, [ABC]_data_in, [ABC]_data_out <br>
 
 
